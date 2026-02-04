@@ -1,0 +1,11 @@
+
+1.)	The system shall generate a random integer N such that 1 ≤ N ≤ 10 at the start of each new game.
+2.)	The player shall be allowed a maximum of 5 counted guesses per game.
+3.)	After each counted guess, the system shall display whether the guess is “too high,” “too low,” or “correct.”
+4.)	The system shall validate that each input is a whole number; if not, it shall display an error message and shall not count the input as a guess.
+5.)	After each counted guess, the system shall display the number of remaining guesses.
+6.) If the player guesses N correctly, the game shall end immediately and display a win message.
+7.)	If the player reaches 5 counted guesses without guessing N, the system shall display the correct number and a loss message, then end the game.
+8.) After the game ends (win or loss), the system shall prompt the player to restart using Y/N input; if Y, the system shall start a new game and generate a new N.
+9.)	The system shall reject any guess that is outside 1–10 or repeats a previous counted guess within the same game by displaying an error message and not counting that input as a guess.
+10.) The system shall maintain and display a session record of wins and losses that persists until the program is closed.
