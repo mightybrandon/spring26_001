@@ -1,0 +1,12 @@
+==========================REQUIREMENTS==========================
+- The game must have criteria to beat levels, game as a whole
+- The game must be optimized to perform well on multiple platforms
+- The game must have increasing difficulty
+    + Could be user adjusted or automatically scale upon level completion
+- The game must have variance to ensure gameplay does not get stale quick
+- The game must have easily distinguishable visuals (Accessibility)
+- The game must explain rules clearly to player in a concise way
+- The game must be able to pause, quit, restart game as user pleases
+- The game should have a way to record scores to a locally stored text file or browser storage
+- The game should have a timer system to keep games quick, challenging
+- The game should have multiple levels
