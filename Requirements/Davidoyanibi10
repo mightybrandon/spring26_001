@@ -1,0 +1,21 @@
+10 Requirements for "Galactic Defender."
+
+Player Movement: The player shall control a single defender ship that moves horizontally along the bottom of the screen using left and right arrow keys (or joystick).
+
+Firing Mechanism: The game shall allow the player to fire a single projectile vertically at a time; a new projectile cannot be fired until the previous one has left the screen or hit a target.
+
+Enemy Formation: The game shall generate a grid of 30 enemy ships (3 rows of 10) that move in unison from left to right, dropping down one level each time they hit the screen boundary.
+
+Win Condition: The level shall be considered complete when all enemy ships in the current formation have been destroyed.
+
+Loss Condition: The game shall end immediately ("Game Over") if any enemy ship reaches the same vertical Y-coordinate as the player’s ship.
+
+Scoring System: The system shall award points based on enemy type: 10 points for bottom-row enemies, 20 for middle-row, and 50 for top-row enemies.
+
+Lives Management: The player starts with three lives. Hitting an enemy projectile reduces one life and resets the player's position.
+
+Increasing Difficulty: The movement speed of the enemy formation shall increase by 10% for every five enemies destroyed.
+
+Visual Feedback: The game shall display the current score and remaining lives in a "Heads-Up Display" (HUD) at the top of the screen at all times.
+
+Audio Triggers: The system shall play a distinct 8-bit sound effect for firing a laser, destroying an enemy, and the player losing a life.

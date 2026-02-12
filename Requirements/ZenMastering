@@ -1,0 +1,27 @@
+Pong brainstorm
+Requirements:
+The game must start - functional mandatory
+It must allow a single user to play against a cpu
+
+User must be able to control the paddle to go up and down
+
+Game should allow two players to play against each other
+
+A score must be updated each time the player scores on the opposing side’s goal
+
+The game must operate a ball that can be bounced with moveable paddles on both sides
+
+The game must have bounds detection for the paddle
+
+Player should be allowed to choose between cpu difficulties: easy, medium, and hard
+
+Can add power ups that can augment 
+player’s capabilities: faster paddle, bigger paddle, powerful paddle
+
+Can leave room for more power ups along the way of production and future updates
+
+Can allow faster game speed to allow higher difficulty/ more engaging gameplay
+
+Has to have a menu with choices of: play, settings, difficulty, and quit
+
+Settings at the bare minimum can adjust the game speed and graphical settings

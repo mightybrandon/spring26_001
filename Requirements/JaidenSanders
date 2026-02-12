@@ -1,0 +1,13 @@
+Pacman
+1.)	The game shall display a maze with walls, paths, pellets, and power pellets.
+2.)	The player shall control Pac-Man using directional input.
+3.)	Pac-Man shall collect a pellet when moving onto a pellet tile.
+4.)	The game shall increase the score when pellets are collected.
+5.)	The game shall include at least one ghost that moves automatically through the maze.
+6.)	The game shall remove a life if a ghost collides with Pac-Man while not frightened.
+7.)	The game shall activate frightened mode when Pac-Man consumes a power pellet.
+8.)	During frightened mode, Pac-Man shall be able to eat ghosts for bonus points.
+9.)	The game shall end when all lives are lost.
+10.) The game shall complete the level when all pellets are consumed.
+
+

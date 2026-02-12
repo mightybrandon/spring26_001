@@ -1,0 +1,14 @@
+Pikmin Arcade Game
+- similar concept to Pac-Man
+- maze structure, avoid enemies, collect "nectar"
+Requirements:
+- Game must allow playable Pikmin choice
+- Game should track score
+- Game can display current score during gameplay
+- Game should give player 3 "lives"
+- If player sprite touches enemy, -1 life
+- If all 3 lives gone, game over/game ends
+- Player should be able to move up, down, left, right
+- Player can enter name to associate with score
+- Each collected "nectar" must correspond to 1 point (+1 to score)
+- Game must only support one player at a time

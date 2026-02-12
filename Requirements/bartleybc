@@ -1,0 +1,51 @@
+Pac-Man Game Requirements
+•	The game must be a maze navigation (Functional)
+  o	28x36 tile grid arrangement
+  o	One tile wide paths and walls
+  o	Enemy container
+  o	Paths must all be accessible to the player
+
+•	The game must have a controllable player character (Functional)
+  o	Move with up, down, left, right controls
+  o	Has to stay confined to path tiles, no access to wall tiles
+  o	Player cannot access enemy container
+  o	Can collect dots
+  o	3 lives
+
+•	The game must have a player life system (Functional)
+  o	Losing all 3 lives means the game has ended
+  o	If the player is touched by an enemy, lose one life
+  o	Lives do not reset on each new maze
+
+•	The player must collect all dots to progress (Functional)
+  o	Dots should be on every open path tile for the player to collect
+  o	No dots on wall tiles or beginning player tile
+  o	Small dots
+
+•	The game can include big dots (Non-functional)
+  o	These cause the enemies to become weak and can be eaten for points, this effect should have a short duration
+  o	Higher point value than small dots
+  o	4 big dots in one maze
+
+•	The game must have an enemy trying to attack the player (Functional)
+  o	When an enemy touches player, player loses a life
+  o	4 enemies
+  o	Enemies should be contained and incrementally released until all 4 are after the player
+  o	If enemies are eaten, they are sent back to container and immediately respawn starting at container.
+
+•	The game can include a shortcut from one side to the other (Non-functional)
+  o	This lets the player quickly move from the left side of the maze to the right side of the maze, vice versa
+  o	Enemies can use these shortcuts
+
+•	The game can display a score (Non-functional)
+  o	Score increases when dots are collected, 10 points smaller dot (50 points big dot if implemented)
+  o	Score increases if the player eats an enemy, doubling the score for each one eaten, first eaten = 200 points, second eaten = 400 points, third one eaten = 800 points, fourth one eaten = 1,600 points 
+  o Score will be accumulated across all mazes completed
+  o	Score will be displayed at end of game
+
+•	Upon eating all dots, the same maze must be given with dots refreshed (Functional)
+  o	Same size and layout
+  o	Will refresh mazes until player loses all lives
+
+•	The game can have an ending (Non-functional)
+  o	Complete 10 mazes to win

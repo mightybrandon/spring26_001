@@ -1,0 +1,11 @@
+Battleship Requirements 
+- Needs Grid = x and y at least 10 
+- Needs ships of different length 
+- needs technique for record a hit on a given ship 
+- needs the abititly to play by two players 
+- Needs classifcation of ships 
+- needs ways to record misses 
+- needs way to place ships on grid 
+- needs way to use record of hits to count ships sunk
+  needs to be able to check if ships sunk for win condition 
+- keep tally of win and losses in record 

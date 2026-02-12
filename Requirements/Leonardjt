@@ -1,0 +1,21 @@
+Requirements
+
+Set of rules for the player to follow
+
+The game must have a ending for the player (win/lose)
+
+Player must have a loss conition (0 lives remaining)
+
+Player must have a way to win (guessing number)
+
+Doofus rules
+
+Easy to navigate menu / console
+
+Cards for card game must have correct suit and number
+
+Console / gui must display correct information
+
+Have the option to start a game (start)
+
+Have the option to end the game early (quit)

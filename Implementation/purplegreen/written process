@@ -1,0 +1,34 @@
+Brandon Garrison & Cayleigh Shaw
+
+REQUIREMENTS
+- Data types
+    - Input validation 
+    - Ensure handling of multiple cases
+    - Size of input numbers as string (do not allow the user to just keysmash huge nonsense numbers)
+    - Can the user break the program? Check for “ilities” 
+- Break down into smallest parts until we feel like we have completely dissected the problem
+
+DESIGN
+- Control flow diagram
+    - Choose type of design that reflects problem and can show/map back to requirements
+- Discuss steps for how solution would execute, map to RTM
+
+IMPLEMENTATION
+- Comment code to outline requirements/steps from design
+- Happy path and unhappy path
+    - Bad user input? “Doofus rules”? What if the numbers (if allowing negatives) add to zero? What if both numbers are negative? 
+- How to separate number for getting LSDs? As string, string.split()? As array or list? 
+- Pair programming to build solution 
+    - Based on past projects where we did semi-pair programming
+    - Simultaneous code inspections (navigator and coder switching, navigator can “proofread” code as it is written while checking it maps to requirements and design)
+        - Devil’s advocate 
+- Unit testing for input 
+    - Closed box preferred 
+
+
+requirements breakdown: subdividing all necessary requirements, deciding on data structures, ensuring all types of inputs can be used. we discuss together how we would go about figuring out our requirements, until we feel ready to move on to design phase.
+
+talk about how to create a design that makes sense for the problem and for meeting the requirements. we decide that a control flow diagram makes a lot of sense and aligns with the problem we are solving. discuss how various steps in our control flow map to each requirement, and ensure that all bases are covered.
+
+partner coding works well for us, so we do that. the navigator ensures logical flow to the code as well as keeping an eye out for the implementation mapping directly to the design, as we know the design meets all requirements.
+prior to starting code, we outline with comments to guide the actual solution code. while creating these outlines, we make sure to cover the happy path as well as edge cases, error handling, "doofus rules," and so on. As actual coding begins, we are able to flex as needed, and since there are two of us it is easier to stay on track. partner coding is also good because it is like having live code review as the code is being written, which is great for a simple logic-based problem like this one.

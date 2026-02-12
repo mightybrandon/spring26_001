@@ -1,0 +1,22 @@
+Pac-Man 10 Requirements
+Mandatory:
+
+The game Must increase the players score when a pellet is consumed.
+
+The game Must display the users score, remaining lives, and current level.
+
+The game Must decrease the players life count when a player allides with a ghost.
+
+The game Must stop pac-man from running through walls.
+
+The game Must increase in difficulty as levels progress.
+
+The game Must end when the player has 0 lives.
+
+The game Must advance to the next level when all pellets have been consumed.
+
+The game Must allow pacman to consume ghost during the frightened state.
+
+The system must have 4 ghost enemies.
+
+The system must populate the map with pellets.

@@ -1,0 +1,36 @@
+Pac-Man
+1.	The game must show a maze with paths and walls
+2.	There must be pellets that can be collected
+3.	The pellets must disappear when collected
+4.	There must be ghosts that can be eaten
+5.	There can be a tracked score
+6.	The score must be based on pellets collected and ghosts eaten
+7.	The game must detect when the player hits an enemy
+8.	The player’s lives must decrease when he/she hits an enemy
+9.	The game must end when the player is out of lives
+10.	The game can display a final score
+
+Tetris
+1.	The game must show a vertical screen
+2.	The game must drop blocks down the screen
+3.	The player must be able to adjust the blocks before they get to the bottom
+4.	The game must lock a block into place when it cannot move down anymore
+5.	The game must detect fully filled horizontal lines
+6.	Fully filled horizontal lines must be removed
+7.	All blocks above cleared lines must move down
+8.	The difficulty can continue to increase as the game continues
+9.	The game can track the player’s score
+10.	The game must end when blocks cannot be dropped anymore
+
+Snake
+1.	The game must show a rectangular field
+2.	The player must be able to move around as a continuously moving “snake”
+3.	The player must be able to guide the snake
+4.	There must be randomly spawning apples in the field
+5.	The apples can spawn on any coordinate held by the player
+6.	Once the player moves over an apple, the length of the snake must grow
+7.	The game must end if the player collides with himself/herself or the edge of the field
+8.	As the game continues, the field size must remain the same
+9.	The player’s score must increase with each apple consumed
+10.	The player’s high score can be tracked for future attempts.
+

@@ -1,0 +1,43 @@
+Team Members : Gavin, CJ, Ethan
+
+
+handle file input 
+	this can be any type of file. because you are converting the entire file to a string
+	png, docx, txt
+
+read the entire file
+
+convert it to a string 
+	converting the ENTIRE file to a string
+
+assign/copy the string to a reverse order variable
+	using this to fulfill the requirement of printing the string in reverse order later 
+
+flip/reverse that reverseOrder string variable to prepare it to print at the program finish
+	keeping this stored to print later
+
+then sort the original string from lowest to highest values
+	this will allow us to later count the number of occurences for each characters
+
+check how many of each characters show up in the string
+	count the occurences of each value
+
+assign the top 3 occurences to a individual variables
+	we can use these to later print the top 3 character occurences
+
+get all extended ascii characters that are not detected
+	any value that is missing from being read should be prepared to be printed later
+
+print the top 3 character occurences to user
+	formatted by rank of most occuring and least occuring
+
+print all of those characters that are not detected to user 
+	any characters that were not in the string of entire file
+
+finally print out the reverseOrder string variable to user
+	print the prior stored variable of the reverseOrder string
+
+produce a really good design
+	can optionally submit a code implementation
+	
+	

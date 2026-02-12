@@ -1,0 +1,12 @@
+Requirements:
+
+The player can move the ship left/right (optionally up/down) using keyboard controls.
+The game scrolls forward continuously to simulate motion through the tunnel.
+Obstacles spawn ahead of the player and travel toward the player at the scroll speed.
+If the ship collides with an obstacle, the player loses a life (or the game ends if using 1-life mode).
+The score increases over time based on survival duration and/or distance traveled.
+Collectible items spawn periodically and add points when collected.
+The game difficulty increases over time by increasing scroll speed and/or obstacle spawn rate.
+A start screen is shown with a “Press key to start” prompt.
+A game over screen shows the final score and a restart option.
+The current score (and lives if applicable) is displayed on screen during gameplay.

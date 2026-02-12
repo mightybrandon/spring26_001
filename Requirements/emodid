@@ -1,0 +1,12 @@
+Mortal Kombat — 10 Requirements
+
+1. The game must display a character selection screen where the player chooses a fighter before the match begins.
+2. The game must support 1v1 fighting matches with two health bars shown on the screen.
+3. The player must control their fighter using movement inputs (left/right, crouch, jump) and attack inputs (punch/kick).
+4. Each fighter must have at least one special move that can be triggered by a defined input combination.
+5. The match must be won when the opponent’s health reaches zero, and the game must declare the round winner.
+6. The game must use a best-of-three rounds format (first fighter to win 2 rounds wins the match).
+7. A round timer must count down during each round; if time runs out, the fighter with more health must win the round.
+8. The game must include a blocking/defense mechanic that reduces or prevents damage when used correctly.
+9. The game must detect collisions/hits and apply damage and knockback effects based on the attack type.
+10. When the match ends, the game must show an end-of-match screen and allow the player to restart or return to character select.

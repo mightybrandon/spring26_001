@@ -1,0 +1,21 @@
+Galaga 
+Requirements:
+score is determined by destroying alien ships
+score is incremented by 5 for small ships, 10 for large (boss) ships
+ships must descend (potentially zig and zag)
+user can orient their ship by moving left and right
+there is no time limit
+background must have twinkling stars
+user can customize their ship (color or alternate ship options)
+alien ships must be discernable (different from the user)
+user lasers are green
+alien lasers are red
+lives are displayed top-left
+score is displayed top-right
+time is displayed top-center
+alien ships appear in waves
+menu displays "Play", "Options", "Quit" and a leaderboard
+leaderboard is displayeds below "Quit" and scores are in descending order
+background on menu screen must also have twinkling stars
+user can edit ship in "Options"
+once a user dies; display time, score and a death message

@@ -1,0 +1,76 @@
+Alex Gillespie, Connor Fulks, Luke Campbell, Brady Loos
+
+using System;
+
+public static class DigitReducer
+{
+
+    // We must break off the Least Significant Value from the long user input
+    public static int Fold(string n)
+    {
+        n = Clean(n);
+
+        if (n.Length == 1)
+            return n[0] - '0';
+
+        string head = n[..^1];
+        int tail = n[^1] - '0';
+
+        string next = Add(head, tail);
+        return Fold(next);
+    }
+
+    // Conduct the Add on the Least Significant Value and the input value
+    // Make sure we handle carries properly
+    // By breaking apart the initial input we are able to recurse through the initial string to 
+    // decipher carries and properly add the two values
+    private static string Add(string s, int d)
+    {
+        int carry = d;
+        char[] a = s.ToCharArray();
+
+        for (int i = a.Length - 1; i >= 0; i--)
+        {
+            int sum = (a[i] - '0') + carry;
+            a[i] = (char)('0' + (sum % 10));
+            carry = sum / 10;
+
+            if (carry == 0) break;
+        }
+
+        if (carry > 0)
+            return carry.ToString() + new string(a);
+
+        int k = 0;
+        while (k < a.Length - 1 && a[k] == '0') k++;
+        return new string(a, k, a.Length - k);
+    }
+
+    // Make sure we recieve valid input
+    // Throw exceptions for any doofus inputs
+    private static string Clean(string s)
+    {
+        if (s is null) throw new ArgumentNullException(nameof(s));
+        s = s.Trim();
+        if (s.Length == 0) throw new ArgumentException("Input cannot be empty.");
+
+        foreach (char c in s)
+            if (c < '0' || c > '9')
+                throw new ArgumentException("Input must contain only digits 0-9.");
+
+        int i = 0;
+        while (i < s.Length - 1 && s[i] == '0') i++;
+        return s[i..];
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        string input = Console.ReadLine() ?? "";
+        int result = DigitReducer.Fold(input);
+        Console.WriteLine($"Single digit result: {result}");
+    }
+}

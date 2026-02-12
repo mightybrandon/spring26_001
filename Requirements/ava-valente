@@ -1,0 +1,35 @@
+Ava Valente - Pac-Man Requirements
+In this file I have 10 requirements for the happy path, 10 functional requirements, and then 7 unhappy path requirements. 
+There could be more requirements, but these are the ones I came up with and came to class with.
+
+Happy Path
+1.	Start from main menu
+2.	Maze loads with pellets placed in specific positions
+3.	The player controls the character with directions (arrow keys)
+4.	The character moves through the maze paths with no issue
+5.	The character collects the pellets by moving over them
+6.	Score increases when pellets are collected
+7.	Enemy characters surround the maze following specific movement rules
+8.	If the player collects all pellets, the level is complete
+9.	The next level loads with an increased difficulty
+10.	The game continues until the player loses all lives
+Functional Requirements
+1.	The game should allow the player to control a character using directions (arrow keys)
+2.	The game should restrict character movement to valid paths within the maze (no walking through walls)
+3.	The game should place pellets throughout the maze at the start of the level
+4.	The game should increase the player’s score when a pellet is collected
+5.	The game should include enemy characters that move independently 
+6.	The game should detect collisions between the player and enemies
+7.	The game should reduce the player’s life count when an enemy collision occurs 
+8.	The game should end when the player has no remaining lives
+9.	The game should detect when all pellets are collected
+10.	The game should transition to a new level when all pellets are collected
+Unhappy Paths
+1.	If the player attempts to move into a wall, the character should stop
+2.	If the player provides no input, the character should continue moving in the current direction
+3.	If the player loses a life, the game should reset the player and enemies to their starting positions
+4.	If the player loses a life while no pellets are collected, the pellets should remain unchanged
+5.	If multiple collisions occur at the same time, only one life shall be deducted
+6.	If the player pauses the game, all movement and timers should stop
+7.	If the game is restarted, the score and lives should reset to default values
+

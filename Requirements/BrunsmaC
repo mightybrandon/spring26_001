@@ -1,0 +1,24 @@
+Requirements/ BrunsmaC
+
+Snake game
+
+1. Game must have a start screen
+As Admin I want users to see a screen and have the ability to start the game
+2. Game must let user move the Snake Left, Right, Up, and Down
+As Admin I want users to be able to move the snake where they want to
+3. Game must have fruits to grow snake
+As Admin I want users to have the ability, so they can make the snake eat the fruit. This will let the snake grow longer
+4. Game must have difficulty setting
+As Admin I want users to have the ability to change the difficulty setting, This will let the users who are more skill have a harder time
+5. Game must increase speed has time passes
+As Admin I want the game to speed up as time passes, so it is more challenging as time passes
+6. Game must not allow the snake to run into itself
+As Admin I want the user to not be allowed to run the snake into itself as a challenger to try to get bigger, but also avoid hitting itself
+7. Game must have Score Counter
+As Admin I want users to see their score as the game goes on, This will let users feel acomplished when they get a bigger score
+8. Game must have power ups
+As Admin I want power ups so users have either and easier time or harder time
+9. Game must have walls
+As Admin I want users to not be allowed to run into walls so they cannot leave the barrier, This will also act as a barrier that will stop the game if they hit it
+10. Game must have a game over/ end screen
+As Admin I want users to see something when they lose or beat the game.

@@ -1,0 +1,29 @@
+The game is called Block Dodger. The player controls a small square that moves left and right at the bottom of the screen. Blocks fall from the top of the screen, and the goal is to survive as long as possible by avoiding them. The game ends when a falling block hits the player.
+
+
+
+Game Requirements 
+
+The game must allow the player to move left and right using keyboard controls.
+
+The game must display a start screen with an option to begin the game.
+
+The game must spawn blocks at random horizontal positions at the top of the screen.
+
+The game must continuously drop blocks from the top toward the bottom of the screen.
+
+The game must increase difficulty over time by increasing the falling speed of blocks.
+
+The game must detect collisions between the player and falling blocks.
+
+The game must immediately end the game when a collision occurs.
+
+The game must include a scoring system based on how long the player survives.
+
+The game must display the current score on the screen during gameplay.
+
+The game must allow the player to restart the game quickly after a game over.
+
+The game must run smoothly without noticeable lag on standard computers.
+
+

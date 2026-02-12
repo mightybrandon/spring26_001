@@ -1,0 +1,10 @@
+1. Snake that begins asleep
+2. one player game
+3. snake wakes up when player clicks it, and "wakey snakey appears on the screen
+4. initiate classic style snake game where player uses arrow keys to move
+5. snake is green, food is yellow, bakcground is black
+6. menu-less game
+7. game loses and exits if snake ever recontacts itself
+8. game wins if snake fills whole screen
+9. snake grows as it eats food, in length, not width
+10. snake game must not have varied window sizes. hard default, 640x480

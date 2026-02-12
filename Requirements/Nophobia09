@@ -1,0 +1,21 @@
+Requirements
+
+The game shall display a title screen with the game name and a Start Game action.
+
+The game shall begin gameplay within 1 second of selecting Start Game.
+
+The frog shall move exactly one grid tile per input in the direction selected (up, down, left, right).
+
+The game shall prevent the frog from moving outside the playfield boundaries.
+
+The game shall include at least 5 traffic lanes with vehicles that move horizontally across the screen.
+
+Vehicles shall spawn at configurable intervals per lane-.
+
+The game shall deduct 1 life when the frog collides with any vehicle.
+
+The game shall include a river zone containing floating platforms that move horizontally.
+
+If the frog is in the river zone and is not on a platform tile, the game shall deduct 1 life.
+
+If the frog is on a platform tile, the frog shall move with the platform at the platform’s speed and direction until the frog moves off it.

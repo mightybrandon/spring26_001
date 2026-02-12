@@ -1,0 +1,10 @@
+Game MUST display two paddles, one on each side of the play screen.
+Game MUST display a ball on the play screen.
+Ball MUST move automatically once the game starts.
+Player MUST be able to move their own paddle.
+Game MUST move opposing paddle according to ball movement.
+Game MUST display current score for both players.
+Ball MUST reverse direction when hitting a paddle.
+Ball MUST bounce when hitting play arena ceiling/floor.
+Player MUST receive point when ball exists play arena on opposite side.
+Game MUST reset ball to center of play arena when point is scored.
